@@ -12,7 +12,7 @@ public class LinkedList {
             head = newNode;
         }
     }
-    
+
     public void display() {
         Node currentNode=head;
         if (currentNode==null){
