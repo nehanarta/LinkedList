@@ -12,6 +12,15 @@ public class LinkedList {
             head = newNode;
         }
     }
+    public void append(int data) {
+        Node newNode=new Node(data);
+        if (head==null){
+            head=newNode;
+            tail=newNode;
+        }else
+        tail.next=newNode;
+        tail=newNode;
+    }
 
     public void display() {
         Node currentNode=head;

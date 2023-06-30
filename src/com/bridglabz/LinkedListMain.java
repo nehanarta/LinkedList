@@ -7,6 +7,11 @@ public class LinkedListMain {
         Ls.add(56);
         Ls.add(70);
         Ls.display();
+        LinkedList Ls1=new LinkedList();
+        Ls1.append(56);
+        Ls1.append(30);
+        Ls1.append(76);
+        Ls1.display();
 
     }
 }
