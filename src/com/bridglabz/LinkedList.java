@@ -21,6 +21,13 @@ public class LinkedList {
         tail.next=newNode;
         tail=newNode;
     }
+    public void firstElementDelete() {
+        if (head == null) {
+            System.out.println("Linked list is Empty");
+        }
+        head = head.next;
+    }
+
 
     public void display() {
         Node currentNode=head;
