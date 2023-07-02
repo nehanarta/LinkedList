@@ -14,6 +14,8 @@ public class LinkedListMain {
         Ls1.display();
         Ls1.firstElementDelete();
         Ls1.display();
+        Ls1.lastElementDelete();
+        Ls1.display();
 
 
 

@@ -27,6 +27,21 @@ public class LinkedList {
         }
         head = head.next;
     }
+    public void lastElementDelete() {
+        if (head == null){
+            System.out.println("Linked list is Empty");
+        } else if (head == tail) {
+            head = null;
+            tail = null;
+        }else {
+            Node currentNode = head;
+            while (currentNode.next != tail){
+                currentNode = currentNode.next;
+            }
+            currentNode.next = null;
+            tail = currentNode;
+        }
+    }
 
 
     public void display() {
