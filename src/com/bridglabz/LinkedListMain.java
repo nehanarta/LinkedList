@@ -10,8 +10,12 @@ public class LinkedListMain {
         LinkedList Ls1=new LinkedList();
         Ls1.append(56);
         Ls1.append(30);
-        Ls1.append(76);
+        Ls1.append(70);
         Ls1.display();
+        Ls1.firstElementDelete();
+        Ls1.display();
+
+
 
     }
 }
